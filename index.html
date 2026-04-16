@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ham Bakery</title>
+
+  <!-- FONT PREMIUM -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <h1>Ham Bakery</h1>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#produk">Produk</a></li>
+    <li><a href="#testimoni">Testimoni</a></li>
+    <li><a href="#kontak">Kontak</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h2>Baked With Love,<br>Served With Passion</h2>
+    <p>Roti fresh setiap hari dengan kualitas terbaik</p>
+
+    <div class="hero-btn">
+      <a href="https://wa.me/6289624655959" target="_blank" class="btn">Order Sekarang</a>
+      <a href="#produk" class="btn secondary">Lihat Produk</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why">
+  <h2>Kenapa Pilih Kami?</h2>
+  <div class="why-grid">
+    <div class="why-item">🍞 Fresh setiap hari</div>
+    <div class="why-item">🌿 Bahan premium</div>
+    <div class="why-item">❤️ Dibuat dengan cinta</div>
+  </div>
+</section>
+
+<!-- STORY -->
+<section class="story">
+  <h2>Cerita Kami</h2>
+  <p>
+    Ham Bakery lahir dari keinginan sederhana: menghadirkan kebahagiaan melalui roti yang hangat dan lezat.
+    Di tengah kesibukan sehari-hari, kami percaya bahwa makanan bisa menjadi sumber kenyamanan dan kebahagiaan kecil.
+  </p>
+  <br>
+  <p>
+    Setiap roti dibuat dengan bahan pilihan terbaik, tanpa mengurangi kualitas dan rasa.
+    Kami memperhatikan setiap detail, dari proses pembuatan hingga penyajian,
+    agar setiap gigitan memberikan pengalaman yang tak terlupakan.
+  </p>
+  <br>
+  <p>
+    Kami tidak hanya menjual roti, tapi juga menghadirkan cerita dan kenangan.
+    Karena bagi kami, pelanggan bukan hanya pembeli — tapi bagian dari perjalanan kami.
+  </p>
+</section>
+
+<!-- PRODUK -->
+<section id="produk">
+  <h2>Produk Kami</h2>
+
+  <div class="slider">
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec">
+      <h3>Roti Artisan</h3>
+    </div>
+
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a">
+      <h3>Croissant</h3>
+    </div>
+
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff">
+      <h3>Roti Gandum</h3>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONI -->
+<section id="testimoni" class="testimoni">
+  <h2>Apa Kata Pelanggan</h2>
+
+  <div class="testi-grid">
+    <div class="testi">"Rotinya enak banget!" - Andi</div>
+    <div class="testi">"Selalu fresh!" - Siti</div>
+    <div class="testi">"Croissant terbaik!" - Budi</div>
+  </div>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak" class="contact">
+  <div class="contact-container">
+    <div>
+      <h2>Ham Bakery</h2>
+      <p>Roti fresh setiap hari dengan kualitas premium.</p>
+    </div>
+
+    <div>
+      <h3>Kontak</h3>
+      <p>📍 Ambarawa</p>
+      <p>📞 089624655959</p>
+    </div>
+
+    <div>
+      <h3>Jam Buka</h3>
+      <p>08.00 - 20.00</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Ham Bakery 🍞</p>
+</footer>
+
+<!-- CHATBOT -->
+<div class="chat-toggle" onclick="toggleChat()">💬</div>
+
+<div class="chatbox" id="chatbox">
+  <div id="chat"></div>
+  <input type="text" id="input" placeholder="Tanya...">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
